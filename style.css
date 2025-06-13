@@ -223,4 +223,12 @@ nav{
     width: 420px;
     height:400px;
   }
+        .data img{
+    height: 150px;
+  }
+  .sofas{
+  height: 300px;
+  width: 70%;
+  text-align: center;
+}
 }

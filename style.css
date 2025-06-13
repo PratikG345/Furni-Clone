@@ -1,0 +1,217 @@
+      .hover-underline {
+        display: inline-block;
+        margin-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 4px solid transparent;
+        transition: border-color 0.3s;
+      }
+      .hover-underline a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.55);
+        font-weight: bold;
+      }
+
+      .hover-underline:hover {
+        border-color: yellow;
+      }
+      .bg-darkgreeen {
+        background-color: #3b5d50;
+      }
+      .hero-h1 h1{
+        font-size: 55px;
+      }
+      .dots-bg {
+  position: absolute;
+  bottom: 50%;
+  right: 25px;
+  width: 300px; /* Adjust as needed */
+  z-index: 1;
+}
+.images {
+  position: relative;
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: white;
+  overflow: hidden;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.images::after {
+  content: "+";
+  position: absolute;
+  left: 0;
+  bottom: -50%;
+  width: 90%;
+  height: 50%;
+  background-color: rgba(43, 182, 200, 0.22);
+  z-index: 1;
+  transition: bottom 0.3s ease;
+}
+
+.images:hover::after {
+  bottom: 0;
+}
+.yellow-dots {
+  position: relative;
+  bottom: 90%;
+  right: 0;
+  width: 200px; /* Adjust as needed */
+  z-index: 0;
+}
+.mahesh{
+  height: 600px;
+}
+.mahesh1{
+  height: 230px;
+
+}
+nav{
+    background: rgb(59, 93, 80) !important;;
+}
+.mahesh3{
+  height: 400px;
+  position: absolute;
+  width: 400px;
+  top: 2330px;
+  left: 475px;
+
+}
+.greendts{
+  top: 2010px;
+  left: 20px;
+}
+
+/* body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 150, 150);
+    font-family: 'Open Sans';
+} */
+#demo{
+    /* background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%); */
+    max-width: 900px;
+    margin: auto;
+}
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem;
+}
+@media(max-width:767px){
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+}
+.carousel-caption img{
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem;
+}
+@media(max-width:767px){
+    .carousel-caption img{
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem;
+    }
+}
+#image-caption{
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+#image-captiontext{
+    font-style: normal;
+    font-size: 0.2rem;
+}
+
+@media(max-width:767px){
+    #image-caption{
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem;
+    }
+}
+.test i{
+    background-color: rgba(123, 121, 121, 0.223);
+    padding: 1.4rem;
+}
+.graybg{
+  padding: 0 0 200px 0;
+}
+@media(max-width:767px){
+    i{
+        padding: 0.8rem;
+    }
+}
+.carousel-control-prev{
+    justify-content: flex-start;
+}
+.content{
+  margin-top:-180px;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
+.carousel-control-prev,.carousel-control-next{
+    transition: none;
+    opacity: unset;
+}
+.catalog a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.sofa-img{
+  margin-top: -200px;
+}
+@media(max-width: 768px){
+  .mahesh{
+  height: 300px;
+}
+.mahesh1{
+  height: 130px;
+
+}
+.hero-h1 h1{
+        font-size: 40px;
+      }
+.sofa-img{
+  margin-top: 0;
+}
+.graybg{
+  padding: 0 0 20px 0;
+}
+.sofas{
+  height: 400px;
+}
+  .mahesh3{
+    top:4430px;
+    left:250px;
+    width: 200px;
+    height: 220px;
+  }
+  .greendts{
+    top:4440px;
+    left: -50px;
+  }
+  .content{
+  margin-top:0;
+}
+}

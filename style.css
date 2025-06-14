@@ -5,6 +5,9 @@
         border-bottom: 4px solid transparent;
         transition: border-color 0.3s;
       }
+      /* .img-blog{
+        height: 300px;
+      } */
       .hover-underline a {
         text-decoration: none;
         color: rgba(255, 255, 255, 0.55);
@@ -223,12 +226,12 @@ nav{
     width: 420px;
     height:400px;
   }
-        .data img{
-    height: 150px;
-  }
   .sofas{
-  height: 300px;
+  height:400px;
   width: 70%;
+  margin-left: 15%;
+  margin-top: 150px;
   text-align: center;
 }
+
 }
